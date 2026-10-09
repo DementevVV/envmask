@@ -1,0 +1,22 @@
+# Build output
+/main
+/envmask
+/envmask-*
+/dist/
+
+# Go
+*.test
+*.out
+coverage.*
+
+# Masked output and real env files (keep test fixtures)
+*.masked
+!testdata/*.masked
+/.env
+/.env.*
+
+# OS / editors
+.DS_Store
+.idea/
+.vscode/
+*.swp
